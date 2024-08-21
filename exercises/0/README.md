@@ -18,7 +18,7 @@
 
 DUE: September 4 (Wednesday), 2024 Before Class
 
-Please accept Exercise 0 on **GitHub Classroom** using the following link: TBD
+Please accept Exercise 0 on **GitHub Classroom** using the following link: https://classroom.github.com/a/G1Lb9xvy
 
 When you accept the assignment, a new GitHub repository will be automatically
 created for you with which you will do backup, versioning, and even submission.
@@ -57,28 +57,29 @@ below instructions.
 1. If you are new to git source versioning or GitHub, I recommend that you
 start by using the Desktop GUI version.  You can download it from:
 
+   https://desktop.github.com/download/
+
 2. Once you've installed GitHub Desktop, let's first clone the Exercise 0 GitHub repository to your computer:
 
    https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop
 
    Please clone the GitHub Classroom repository that was created for you when you accept the assignment to your desktop.
 
-   Whenever there are updates to the GitHub Classroom repository (for example,
-somebody did a "Push" to the repository), the "Pull" request button will be
-activated for the repository on GitHub Desktop.  Clicking that button will
-bring your Local Repository in sync with the Remote Repository at GitHub.com.
-
 3. Whenever you make improvements to your source code, frequently "Commit" and
    "Push" those changes to GitHub so that your new changes are versioned.
-
-   Committing your changes will transfer the changes from the source code that
-you are working on to the Local Repository creating a new version.  Pushing
-your changes will upload new versions in your Local Repository to the central
-Remote Repository at GitHub.com.  So only after you Push will the changes be
-available to your collaborator to Pull (or yourself from a different machine).
+Committing your changes will transfer the changes from the source code that you
+are working on to the Local Repository creating a new version.  Pushing your
+changes will upload new versions in your Local Repository to the central Remote
+Repository at GitHub.com.  So only after you Push will the changes be available
+to your collaborator to Pull (or yourself from a different machine).
 Committing and Pushing frequently ensures that your changes are versioned and
 backed up, as well as allowing your collaborators to access your changes and
 keep up-to-date.
+
+4. Whenever there are updates to the GitHub Classroom repository (for example,
+   somebody did a "Push" to the repository), the "Pull" request button will be
+activated for the repository on GitHub Desktop.  Clicking that button will
+bring your Local Repository in sync with the Remote Repository at GitHub.com.
 
 For more details about using Git and GitHub, please refer to the following tutorial:
 https://classroom.github.com/a/DWR7V_Np
