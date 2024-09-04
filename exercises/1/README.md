@@ -233,7 +233,7 @@ with the 6 items shown above.  For the title, use the content of the SUMMARY
 item.  When all is filled in, click on the "Submit new issue" button.  
 
 After the issue is submitted, perform **triage** and tag the issue as a "bug"
-and assign it to one of the group members, as shown below in the first red box:
+and assign it to yourself, as shown below in the first red box:
 
 <img alt="Issues list" src=img/open_issue.png>
 
@@ -323,7 +323,7 @@ processor, that's perfectly fine as long as you follow the same organization.
 A PDF version of the file is at [ReportTemplate.pdf](ReportTemplate.pdf).
 
 The report should start with a cover page with:
-* The names of the people in the group
+* Your name
 
 Write a short introduction that includes:
 * IDENTIFIER of one base case and why you think it is a base case.
@@ -356,14 +356,6 @@ on GradeScope will not count towards your grade.  It's there only for feedback
 purposes and help you do Deliverable 1 better.  This applies to all future
 exercises.
 
-Each pairwise group shall do a *shared* submission to GradeScope to the
-**Exercise 1** link, by *one member* of the group.  The submitting member shall
-press the **View or edit group** link at the top-right corner of the assignment
-page before or after submission to add his/her partner.  That way, the feedback
-will be accessible to both of you (and the credit).  You may submit as many
-times as you wish before the deadline as long as you make sure of this. This
-applies to all future exercises and deliverables.
-
 When you submit, please make sure that the introduction, traceability matrix,
 test cases, and defects are on seperate pages.  You will be submitting to
 GradeScope in PDF format.  When you submit, you will be asked to assign pages
@@ -377,7 +369,7 @@ your grade details.  Please use the feedback wisely when doing Deliverable 1!
 * DUE: September 23 (Monday), 2024 before start of class
 
 An extra credit of 1 point out of 100 points for the entire course will be
-awarded to the group that finds the most number of defects in the program.  You
+awarded to the student that finds the most number of defects in the program.  You
 must have found at least 5 unique defects to qualify for the competition.
 There can be multiple winners too if there is a tie!
 
