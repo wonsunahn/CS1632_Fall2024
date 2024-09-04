@@ -13,7 +13,7 @@ Fall Semester 2024
 
 * DUE: September 23 (Monday), 2024 before start of class
 
-**GitHub Classroom Link:** https://classroom.github.com/a/hPkF_9CW
+**GitHub Classroom Link:** https://classroom.github.com/a/GCT23QB-
 
 This is going to be your first group assignment.  When you click on the GitHub
 Classroom link, you will be asked to either create a new team or join an

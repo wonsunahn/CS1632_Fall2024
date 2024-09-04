@@ -15,7 +15,7 @@ Fall Semester 2024 - Exercise 1
 
 * DUE: September 9 (Monday), 2024 before start of class
 
-**GitHub Classroom Link:** https://classroom.github.com/a/fTlsMktb
+**GitHub Classroom Link:** https://classroom.github.com/a/cilKN6b0
 
 # Description
 
