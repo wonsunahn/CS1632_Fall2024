@@ -218,8 +218,9 @@ to assign pages in the PDF file to each rubric item: 1. Introduction, 2.
 Traceability Matrix, 3. Test Cases, and 4. Defects.
 
 Each pairwise group will do a shared submission to the **Deliverable 1**
-GradeScope link in the manner described on Exercise 1.  Make sure that your
-partner is added, or he/she/they will not get a grade!
+GradeScope link.  Make sure that your partner is added by clicking on the "View
+or edit group" link on the top right of the submission, or he/she/they will not
+get a grade!
 
 ## Groupwork Plan
 
