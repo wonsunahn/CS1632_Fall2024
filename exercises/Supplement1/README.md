@@ -19,7 +19,7 @@ Fall Semester 2024 - Supplementary Exercise 1
 
 * DUE: September 25 (Wednesday), 2024 before start of class
 
-**GitHub Classroom Link:** TBD
+**GitHub Classroom Link:** https://classroom.github.com/a/dEywR24U
 
 ## Description
 
