@@ -23,7 +23,7 @@
 
 # CS 1632 - Software Quality Assurance
 
-* DUE: October 3 (Thursday), 2024 before start of class
+* DUE: October 2 (Wednesday), 2024 before start of class
 
 **GitHub Classroom Link:** https://classroom.github.com/a/-mFE2_xV
 
