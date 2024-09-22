@@ -163,7 +163,9 @@ Report at least 3 defects found using the test plan.
 
 **Again, please apply everything you learned in Exercise 1 here.**
 
-File the defect reports using the GitHub issues system as we did in Exercise 1.
+For each defect, open a GitHub issue, triage the issue, create a branch,
+resolve the issue through requirement modification, create a pull request, and
+close the issue by pulling the branch, just like we did for Exercise 1.
 
 ## Format
 
