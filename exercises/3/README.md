@@ -539,7 +539,7 @@ https://www.selenium.dev/documentation/webdriver/
 https://www.w3.org/TR/xpath/
 
 * Unofficial XPath tutorial:
-https://www.w3schools.com/xml/xpath_intro.asp.
+https://www.w3schools.com/xml/xpath_syntax.asp
 
 * Official W3C CSS selector specification:
 https://www.w3.org/TR/selectors/
