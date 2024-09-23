@@ -25,7 +25,7 @@
 
 * DUE: October 2 (Wednesday), 2024 before start of class
 
-**GitHub Classroom Link:** https://classroom.github.com/a/-mFE2_xV
+**GitHub Classroom Link:** https://classroom.github.com/a/aiOUdzKg
 
 ## Description
 
