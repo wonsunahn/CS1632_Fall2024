@@ -166,6 +166,8 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 * December 2, 3:00 PM: CGI lecture
 
+* December 4, 9:30 AM: Wolfe lecture
+* 
 * December 4, 3:00 PM: NetApp lecture
 
 * Guest Lecturers from Industry (TBA)
