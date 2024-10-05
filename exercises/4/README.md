@@ -18,7 +18,7 @@ Fall Semester 2024 - Exercise 4
 
 * DUE: October 16 (Wednesday), 2024 before start of class
 
-**GitHub Classroom Link:** TBD
+**GitHub Classroom Link:** https://classroom.github.com/a/rwppqazC
 
 ## Before You Begin
 
