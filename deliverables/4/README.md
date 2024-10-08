@@ -19,7 +19,7 @@ Fall Semester 2024
 
 * DUE: November 4 (Monday), 2024 before start of class
 
-**GitHub Classroom Link:** TBD
+**GitHub Classroom Link:** https://classroom.github.com/a/DEDQqvuH
 
 ## Description
 
