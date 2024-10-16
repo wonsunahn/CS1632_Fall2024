@@ -23,7 +23,7 @@ Fall Semester 2024 - Supplementary Exercise 2
 
 * DUE: October 23 (Wednesday), 2024 before start of class
 
-**GitHub Classroom Link:** TBD
+**GitHub Classroom Link:** https://classroom.github.com/a/De4xO1Vd
 
 ## Description
 
@@ -491,7 +491,7 @@ https://pholser.github.io/junit-quickcheck/site/1.0/usage/complex-types.html
 
 * DUE: November 4 (Monday), 2024 before start of class
 
-**GitHub Classroom Link:** TBD
+**GitHub Classroom Link:** https://classroom.github.com/a/tlEgFkhy
 
 This extra credit is worth 1 point out of 100 points for the entire course.
 Note that you need to get 100/100 on the autograder to get credit.  Partial
