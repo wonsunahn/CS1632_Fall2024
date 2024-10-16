@@ -6,6 +6,9 @@ import com.pholser.junit.quickcheck.runner.JUnitQuickcheck;
 import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
+import static org.junit.Assume.assumeThat;
+import static org.hamcrest.Matchers.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 @RunWith(JUnitQuickcheck.class)
 public class StringOpsTest {
