@@ -21,7 +21,7 @@ Fall Semester 2024 - Supplementary Exercise 3
 
 DUE: October 30 (Wednesday), 2024 before start of class
 
-**GitHub Classroom Link:** TBD
+**GitHub Classroom Link:** https://classroom.github.com/a/4BUc3WWX
 
 ## Description
 
