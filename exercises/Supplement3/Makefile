@@ -7,7 +7,7 @@ TSANOBJS = datarace.tsan.o
 
 CC = gcc
 
-COPT = -g -w
+COPT = -g -w -std=gnu99
 LOPT = -lm
 
 ASANCOPT = -fsanitize=address
