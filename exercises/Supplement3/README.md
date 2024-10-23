@@ -107,31 +107,14 @@ launch your desktop VSCode and connect it to codespaces.
 
 ## Testing and Debugging Memory Errors
 
-If you connected through the VSCode Remote SSH extension, you have the luxury
-of being able to edit code within the VSCode IDE.  Click on the "Explorer" icon
-on the left hand menu (the first one), and there you will see a button "Open
-Folder".  Then you will be prompted to navigate the remote thoth file system.
-Navigate to the folder where you cloned your GitHub Classroom repository and
-open it.  You will be prompted again for your password, and you can use your
-Pitt password again.  Once you do so, you will see all the files on the remote
-thoth folder under the Explorer tab.  You can open source files and edit them
-from VSCode and all changes will be automatically reflected on the remote thoth
-file system.  The below explanations use the "nano" commandline editor.  You
-can use that editor (or any other editor if you prefer it over the VSCode IDE),
-but most people would prefer VSCode. 
 
 ### Turning off ASLR (Address Space Layout Randomization)
 
 heap.c is a simple program that mallocs some bytes on the heap and prints out
-the pointer to that heap location.  You can use 'nano' to view the file on the
-terminal (or your favorite Linux editor):
+the pointer to that heap location.  You can use the VSCode IDE to open it.
 
-```
-nano heap.c
-```
-
-Or, you can view it on the GitHub.  As we learned, even this simple program can
-display nondeterministic behavior due to ASLR.  Try it out yourself!
+As we learned, even this simple program can display nondeterministic behavior
+due to ASLR.  Try it out yourself!
 
 ```
 $ ./heap.bin
@@ -521,15 +504,7 @@ allow detection.
 ### Debugging
 
 Modify stack_overflow.c, stack_pointer_return.c, and heap_overflow.c so that
-they no longer contain memory errors.  You can use 'nano', a very simple
-editor:
-
-```
-nano stack_overflow.c
-```
-
-Or you can use your favorite Linux editor (mine is Vim).  Or edit the files
-on VSCode if you used the VSCode Remote SSH extension to connect.
+they no longer contain memory errors.  
 
 Once you are done, invoke 'make' again to recompile the binaries:
 
