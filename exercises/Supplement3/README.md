@@ -12,7 +12,6 @@
     + [Using Google TSAN (Thread Sanitizer)](#using-google-tsan-thread-sanitizer)
     + [Debugging](#debugging-1)
   * [Submission](#submission)
-  * [Division of Work](#division-of-work)
   * [Resources](#resources)
 
 # CS 1632 - Software Quality Assurance
@@ -726,11 +725,6 @@ the "Supplementary Exercise 1 GitHub" link.
 Again, don't forget to add your partner to each submission.  You can
 resubmit as many times as you with until you get a perfect score on the
 autograder.
-
-## Division of Work
-
-For this exercise, I recommend that you both try to do the full exercise.
-Compare your debugged files in the end, discuss, and submit!
 
 ## Resources
 
