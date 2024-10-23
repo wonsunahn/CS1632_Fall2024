@@ -2,7 +2,7 @@
   * [Description](#description)
   * [Setting up Build Environment](#setting-up-build-environment)
     + [Building](#building)
-    + [Editing Source Code on VSCode](#editing-source-code-on-vscode)
+    + [Editing Source Code on VSCode Desktop](#editing-source-code-on-vscode-desktop)
   * [Testing and Debugging Memory Errors](#testing-and-debugging-memory-errors)
     + [Turning off ASLR (Address Space Layout Randomization)](#turning-off-aslr-address-space-layout-randomization)
     + [Using Google ASAN (Address Sanitizer)](#using-google-asan-address-sanitizer)
@@ -98,21 +98,12 @@ to gcc.  I also pass the **-fPIE** and **-pie** options to the compilation and l
 stages respectively.  This makes your code position independent, and is needed for
 TSAN to work flawlessly (I'm assuming you learned what PIE is in CS 449).
 
-### Editing Source Code on VSCode
+### Editing Source Code on VSCode Desktop
 
-There is no editor on that image to speak of, so you will have to use VS Code
-to edit the source code.  Please install the "Docker" and "Dev Containers"
-extensions on VSCode.
-
-* Docker: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
-* Dev Containers: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
-
-Then, click on the Docker extension and then right click on the "gcc" container
-in the list of CONTAINERS.  Then click on "Attach Visual Studio Code" to launch
-a new VSCode window attached to the container.  Now, if you open a terminal, it
-will open into the container and if you click on "Open Folder" on the Explorer,
-you will be able to open a folder in the container.  Please open the folder
-where you cloned your git repository to start editing the files.
+You can keep working on the Codespaces browser tab, or if you prefer a desktop
+environment, you can click on the hamburger icon on the top left (the icon with
+three horizontal bars), and then click on "Open in VS Code Desktop", which will
+launch your desktop VSCode and connect it to codespaces.
 
 ## Testing and Debugging Memory Errors
 
