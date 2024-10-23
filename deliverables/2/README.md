@@ -206,8 +206,8 @@ mvn jacoco:report
 ```
 
 Just like for Exercise 2, I want you to provide to me screenshots of coverage
-for individual classes that you have tested.  Please provide with me 4
-screenshots of the 4 classes in the following order:
+for individual classes that you have tested.  Please provide with me 3
+screenshots of the 3 classes in the following order:
 
 1. CoffeeMakerQuestImpl.java
 2. PlayerImpl.java
