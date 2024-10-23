@@ -9,5 +9,6 @@
 		"--security-opt",
 		"seccomp=unconfined"
 	],
-	"postCreateCommand": "sudo apt-get update && sudo apt-get -y install gdb"
+	// Install gdb and valgrind needed for the exercise
+	"postCreateCommand": "sudo apt-get update && sudo apt-get -y install gdb valgrind"
 }
