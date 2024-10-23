@@ -48,56 +48,17 @@ Nondeterminism lecture.  By trying out these programs, you will learn the follow
 
 In order to use ASAN or TSAN, you need to clang version >= 3.1 or gcc version >= 4.8.
 Since you are unlikely to have either installed on your local
-computer, I am going to ask you to download and install the official GCC Docker
-image and launch a Docker container so you can connect to it and work on the
-exercise.
+computer, I am going to ask you to use Codespaces, a containerized development environment provided by GitHub.
 
-### Installing Docker Image and Launching Container
+### Building
 
-1. Install Docker Desktop: https://www.docker.com/products/docker-desktop/
+In order to launch the codespace, you only need to click on the big green "Code" button on your GitHub.com page for your repository, and then select the "Codespaces" tab, after which you can click on "Create codespace on main" button.  Refer to the picture in the below link:
 
-1. Pull official GCC image by typing following on command line:
-   ```
-   docker pull gcc
-   ```
-   This should download and register a new image on Docker Desktop on the "Images" menu (the second icon on the left hand side).
+https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository
 
-1. Launch a privileged container for the GCC image by using the following command line:
-   ```
-   docker run --privileged -it gcc
-   ```
-   The above should register a new running container on Docker Desktop on the "Containers" menu, and also you should get a new prompt on the terminal, like this:
-   ```
-   wahn@mc-wifi-10-215-129-212 3 % docker run --privileged -it gcc
-   root@56d5c19686b3:/#
-   ```
+That will launch a new tab on your web browser showing a VSCode-like development environment.  I will initially launch a script to install gdb and valgrind.  You can leave that running on the background while working on a bash shell on the Terminal.
 
-### Cloning and Building
-
-1. On the terminal opened on Docker, navigate to the /root directory:
-   ```
-   cd root/
-   ```
-1. Then clone your GitHub Classroom repository:
-
-   ```
-   git clone <your GitHub Classroom repository HTTPS URL>
-   ```
-
-   This will ask for your Username and Password.  Username is your GitHub
-account username, but Password is not your password.  Password
-authentication on GitHub has been deprecated on August 2021, so now you have
-to use something called a Personal Authenication Token (PAT) in place of the
-password.  Here are instructions on how to create a PAT:
-
-   https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-   Creating a classic PAT is slightly simpler, if you don't need fine-grained
-access control to individual repositories.  Use the PAT to authenticate in
-place of your password when cloning.
-
-   Now cd into your cloned directory.  I have provided a Makefile build script
-to automate the build.  All you have to do is invoke 'make':
+On the bash shell, invoke 'make':
 
    ```
    $ make
