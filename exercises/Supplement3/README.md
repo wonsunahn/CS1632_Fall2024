@@ -1,9 +1,8 @@
 - [CS 1632 - Software Quality Assurance](#cs-1632---software-quality-assurance)
   * [Description](#description)
   * [Setting up Build Environment](#setting-up-build-environment)
-    + [Installing Docker Image and Launching Container](#installing-docker-image-and-launching-container)
-    + [Cloning and Building](#cloning-and-building)
-    + [Editing Source Code on VSCode](#editing-source-code-on-vscode)
+    + [Building](#building)
+    + [Editing Source Code on VSCode Desktop](#editing-source-code-on-vscode-desktop)
   * [Testing and Debugging Memory Errors](#testing-and-debugging-memory-errors)
     + [Turning off ASLR (Address Space Layout Randomization)](#turning-off-aslr-address-space-layout-randomization)
     + [Using Google ASAN (Address Sanitizer)](#using-google-asan-address-sanitizer)
@@ -13,7 +12,6 @@
     + [Using Google TSAN (Thread Sanitizer)](#using-google-tsan-thread-sanitizer)
     + [Debugging](#debugging-1)
   * [Submission](#submission)
-  * [Division of Work](#division-of-work)
   * [Resources](#resources)
 
 # CS 1632 - Software Quality Assurance
@@ -48,56 +46,17 @@ Nondeterminism lecture.  By trying out these programs, you will learn the follow
 
 In order to use ASAN or TSAN, you need to clang version >= 3.1 or gcc version >= 4.8.
 Since you are unlikely to have either installed on your local
-computer, I am going to ask you to download and install the official GCC Docker
-image and launch a Docker container so you can connect to it and work on the
-exercise.
+computer, I am going to ask you to use Codespaces, a containerized development environment provided by GitHub.
 
-### Installing Docker Image and Launching Container
+### Building
 
-1. Install Docker Desktop: https://www.docker.com/products/docker-desktop/
+In order to launch the codespace, you only need to click on the big green "Code" button on your GitHub.com page for your repository, and then select the "Codespaces" tab, after which you can click on "Create codespace on main" button.  Refer to the picture in the below link:
 
-1. Pull official GCC image by typing following on command line:
-   ```
-   docker pull gcc
-   ```
-   This should download and register a new image on Docker Desktop on the "Images" menu (the second icon on the left hand side).
+https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository
 
-1. Launch a privileged container for the GCC image by using the following command line:
-   ```
-   docker run --privileged -it gcc
-   ```
-   The above should register a new running container on Docker Desktop on the "Containers" menu, and also you should get a new prompt on the terminal, like this:
-   ```
-   wahn@mc-wifi-10-215-129-212 3 % docker run --privileged -it gcc
-   root@56d5c19686b3:/#
-   ```
+That will launch a new tab on your web browser showing a VSCode-like development environment.  I will initially launch a script to install gdb and valgrind.  You can leave that running on the background while working on a bash shell on the Terminal.
 
-### Cloning and Building
-
-1. On the terminal opened on Docker, navigate to the /root directory:
-   ```
-   cd root/
-   ```
-1. Then clone your GitHub Classroom repository:
-
-   ```
-   git clone <your GitHub Classroom repository HTTPS URL>
-   ```
-
-   This will ask for your Username and Password.  Username is your GitHub
-account username, but Password is not your password.  Password
-authentication on GitHub has been deprecated on August 2021, so now you have
-to use something called a Personal Authenication Token (PAT) in place of the
-password.  Here are instructions on how to create a PAT:
-
-   https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-   Creating a classic PAT is slightly simpler, if you don't need fine-grained
-access control to individual repositories.  Use the PAT to authenticate in
-place of your password when cloning.
-
-   Now cd into your cloned directory.  I have provided a Makefile build script
-to automate the build.  All you have to do is invoke 'make':
+On the bash shell, invoke 'make':
 
    ```
    $ make
@@ -138,49 +97,23 @@ to gcc.  I also pass the **-fPIE** and **-pie** options to the compilation and l
 stages respectively.  This makes your code position independent, and is needed for
 TSAN to work flawlessly (I'm assuming you learned what PIE is in CS 449).
 
-### Editing Source Code on VSCode
+### Editing Source Code on VSCode Desktop
 
-There is no editor on that image to speak of, so you will have to use VS Code
-to edit the source code.  Please install the "Docker" and "Dev Containers"
-extensions on VSCode.
-
-* Docker: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
-* Dev Containers: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
-
-Then, click on the Docker extension and then right click on the "gcc" container
-in the list of CONTAINERS.  Then click on "Attach Visual Studio Code" to launch
-a new VSCode window attached to the container.  Now, if you open a terminal, it
-will open into the container and if you click on "Open Folder" on the Explorer,
-you will be able to open a folder in the container.  Please open the folder
-where you cloned your git repository to start editing the files.
+You can keep working on the Codespaces browser tab, or if you prefer a desktop
+environment, you can click on the hamburger icon on the top left (the icon with
+three horizontal bars), and then click on "Open in VS Code Desktop", which will
+launch your desktop VSCode and connect it to codespaces.
 
 ## Testing and Debugging Memory Errors
 
-If you connected through the VSCode Remote SSH extension, you have the luxury
-of being able to edit code within the VSCode IDE.  Click on the "Explorer" icon
-on the left hand menu (the first one), and there you will see a button "Open
-Folder".  Then you will be prompted to navigate the remote thoth file system.
-Navigate to the folder where you cloned your GitHub Classroom repository and
-open it.  You will be prompted again for your password, and you can use your
-Pitt password again.  Once you do so, you will see all the files on the remote
-thoth folder under the Explorer tab.  You can open source files and edit them
-from VSCode and all changes will be automatically reflected on the remote thoth
-file system.  The below explanations use the "nano" commandline editor.  You
-can use that editor (or any other editor if you prefer it over the VSCode IDE),
-but most people would prefer VSCode. 
 
 ### Turning off ASLR (Address Space Layout Randomization)
 
 heap.c is a simple program that mallocs some bytes on the heap and prints out
-the pointer to that heap location.  You can use 'nano' to view the file on the
-terminal (or your favorite Linux editor):
+the pointer to that heap location.  You can use the VSCode IDE to open it.
 
-```
-nano heap.c
-```
-
-Or, you can view it on the GitHub.  As we learned, even this simple program can
-display nondeterministic behavior due to ASLR.  Try it out yourself!
+As we learned, even this simple program can display nondeterministic behavior
+due to ASLR.  Try it out yourself!
 
 ```
 $ ./heap.bin
@@ -570,15 +503,7 @@ allow detection.
 ### Debugging
 
 Modify stack_overflow.c, stack_pointer_return.c, and heap_overflow.c so that
-they no longer contain memory errors.  You can use 'nano', a very simple
-editor:
-
-```
-nano stack_overflow.c
-```
-
-Or you can use your favorite Linux editor (mine is Vim).  Or edit the files
-on VSCode if you used the VSCode Remote SSH extension to connect.
+they no longer contain memory errors.  
 
 Once you are done, invoke 'make' again to recompile the binaries:
 
@@ -694,10 +619,15 @@ $ ./datarace.bin
 shared=1021775
 ```
 
-Now let's try using TSAN to discover this bug by running the instrumented binary:
+Now let's try using TSAN to discover this bug by running the instrumented
+datarace.tsan binary.  Note that we need to run TSAN with ASLR off, which is in
+theory not necessary, but is necessary in this case because of compatibility
+with how Ubuntu 24.04 (the linux version for our current devcontainer) does
+ASLR with an entropy of 32 bits (vm.mmap_rnd_bits=32).  Don't worry if that
+does not make sense to you --- just make sure you run TSAN with ALSR off.
 
 ```
-$ ./datarace.tsan
+$ bash run_aslr_off.sh ./datarace.tsan
 ==================
 WARNING: ThreadSanitizer: data race (pid=2438881)
   Write of size 4 at 0x55eb33b6f014 by thread T1:
@@ -795,11 +725,6 @@ the "Supplementary Exercise 1 GitHub" link.
 Again, don't forget to add your partner to each submission.  You can
 resubmit as many times as you with until you get a perfect score on the
 autograder.
-
-## Division of Work
-
-For this exercise, I recommend that you both try to do the full exercise.
-Compare your debugged files in the end, discuss, and submit!
 
 ## Resources
 
