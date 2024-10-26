@@ -121,39 +121,40 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 ## WEEK 10 (Week of 28 OCT)
 
 * Class 1
-  * Lecture: Static Analysis Part 2
+  * In-class exercise: [Exercise 5 Part 1: Linters and Bug Finders](exercises/5)
   * Assignments due before class
     * Listen to Static Analysis Part 1 Lecture
 
 * Class 2
-  * In-class exercise: [Exercise 5: Static Analysis](exercises/5)
-  * Assignment releases
-    * [Deliverable 5](deliverables/5)
+  * Lecture: Software QA and Nondeterminism (cont'd), Static Analysis Part 2
 
 ## WEEK 11 (Week of 4 NOV)
 
 * Class 1
-  * Lecture: Static Analysis Part 3, Smoke and Exploratory Testing (READING: AFIST, Chapters 10-11)
+  * In-class exercise: [Exercise 5 Part 2: Model Checking](exercises/5)
   * Assignments due before class
     * Deliverable 4
+  * Assignment releases
+    * [Deliverable 5](deliverables/5)
 
 * Class 2
-  * In-class exercise: [Supplementary Exercise 4: CI Pipelines](exercises/Supplement4)
+  * Lecture: Static Analysis Part 3, Smoke and Exploratory Testing (READING: AFIST, Chapters 10-11)
 
 ## WEEK 12 (Week of 11 NOV)
 
 * Class 1
-  * In-class exercise: [Supplementary Exercise 4: Dockers](exercises/Supplement4)
+  * In-class exercise: [Supplementary Exercise 4 Part 1: CI Pipelines](exercises/Supplement4)
 
 * Class 2
-  * Lecture: Pairwise and Combinatorial Testing (READING: AFIST, Chapter 17)
+  * In-class exercise: [Supplementary Exercise 4 Part 2: Dockers](exercises/Supplement4)
 
 ## WEEK 13 (Week of 18 NOV)
 
 * Class 1
-  * Lecture: Security Testing (READING: AFIST, Chapter 20)
+  * Lecture: Pairwise and Combinatorial Testing (READING: AFIST, Chapter 17)
 
 * Class 2
+  * Lecture: Security Testing (READING: AFIST, Chapter 20)
   * Lecture: Midterm 2 Q&A based on the [study guide](study_guides/midterm_2_study_guide.md)
 
 ## WEEK 14 (Week of 25 NOV)
