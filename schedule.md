@@ -188,4 +188,4 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 * Class 2: NO CLASS (No final exam)
 
-* Deliverable 5 due Friday 11:59 PM
+* Deliverable 5 due Friday (12/13) 11:59 PM
