@@ -26,7 +26,7 @@ Fall Semester 2024 - Exercise 5
 
 * DUE: November 4 (Monday), 2024 before start of class
 
-**GitHub Classroom Link:** TBD
+**GitHub Classroom Link:** https://classroom.github.com/a/QQ3Z5UU8
 
 ## Description
 
@@ -1034,7 +1034,7 @@ submission into one submission of your choosing.
 
 * DUE: December 16 (Monday), 2024 11:59 PM
 
-**GitHub Classroom Link:** TBD
+**GitHub Classroom Link:** https://classroom.github.com/a/iAzlH9Iv
 
 For this extra credit, you will learn how to use the Java Path Finder to debug
 nondeterministic programs due to parallelism.  You will encounter problems such
