@@ -1374,13 +1374,10 @@ package link, you should see something like the below:
 ### Pull published Docker image and launch from desktop
 
 Since your repository is private, you need to authenticate to your GitHub
-repository before pulling the package.  You will use the PAT (Personal
-Authentication Token) that you generated previously for this purpose.  TO do
-so, you need to add permissions to access packages to the PAT.  On GitHub,
-go to Account > Settings > Developer Settings > Personal Access Tokens >
-Tokens (classic) to find your PAT and check write:packages (which should
-automatically check read:packages as well).  If you forgot the PAT string,
-click on "Regenerate Token" to obtain the string again.
+repository before pulling the package.  You can use the PAT (Personal
+Authentication Token) that you generated previously in Part 1 for this purpose.
+If have not yet generated the token, please refer to the [Deploy Maven package
+and use in your Maven project](#deploy-maven-package-and-use-in-your-maven-project) section in Part 1.
 
 Now on the commandline do:
 
