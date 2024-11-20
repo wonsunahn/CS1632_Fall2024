@@ -166,14 +166,19 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 ## WEEK 15 (Week of 2 DEC)
 
 * December 2, 9:30 AM: BNY Mellon lecture
+  * Speaker: Vittal Kommireddy, Head Of Quality Engineering - CMTSSE [LinkedIn](https://www.linkedin.com/in/vittal-kommireddy-a1857621/)
 
 * December 2, 3:00 PM: CGI lecture
+  * Speaker: Laks Ranganathan, CGI Partner | Director - Consulting Services [LinkedIn](https://www.linkedin.com/in/lakshmi-narasimhan-yeri-ranganathan-4b7b874b/)
+  * Speaker: Sharath Chandran, Director, Consulting Expert [LinkedIn](https://www.linkedin.com/in/sharath-chandran-6a9b7110/)
+  * Speaker: Satish Dupati, Senior Consultant [LinkedIn](https://www.linkedin.com/in/satishdupati/)
 
 * December 4, 9:30 AM: Wolfe lecture
+  * Speaker: Glenn Morten, Chief Technology Officer [LinkedIn](https://www.linkedin.com/in/startuptech/)
+  * Speaker: Josh Hanrahan, Senior Director of Software Quality Assurance [LinkedIn](https://www.linkedin.com/in/joshhanrahan/)
 
 * December 4, 3:00 PM: NetApp lecture
-
-* Guest Lecturers from Industry (TBA)
+  * Speaker: Twesha Mitra, Software Engineer, [LinkedIn](https://www.linkedin.com/in/tweshamitra/)
 
 ## WEEK 16 (Week of 9 DEC)
 
