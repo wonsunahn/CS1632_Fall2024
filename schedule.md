@@ -166,7 +166,7 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 ## WEEK 15 (Week of 2 DEC)
 
 * December 2, 9:30 AM: BNY Mellon lecture (Online over Zoom)
-  * Speaker: Vittal Kommireddy, Head Of Quality Engineering - CMTSSE [LinkedIn](https://www.linkedin.com/in/vittal-kommireddy-a1857621/)
+  * Speaker: Vittal Kommireddy, Director Of Quality Engineering Practice [LinkedIn](https://www.linkedin.com/in/vittal-kommireddy-a1857621/)
 
 * December 2, 3:00 PM: CGI lecture (In-Person at IS 305)
   * Speaker: Laks Ranganathan, CGI Partner | Director - Consulting Services [LinkedIn](https://www.linkedin.com/in/lakshmi-narasimhan-yeri-ranganathan-4b7b874b/)
