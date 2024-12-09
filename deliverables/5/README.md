@@ -48,7 +48,7 @@ GradeScope autograder will do extensive testing to test various features of
 the software.  If any of the tests fail, that means you have not thoroughly
 tested your software.
 
-Please make sure you have Java 8 running on your machine, just like for
+Please make sure you have Java 11 running on your machine, just like for
 Exercise 5.
 
 ## Background
