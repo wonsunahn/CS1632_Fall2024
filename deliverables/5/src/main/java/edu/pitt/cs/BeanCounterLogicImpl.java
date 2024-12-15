@@ -124,8 +124,10 @@ public class BeanCounterLogicImpl implements BeanCounterLogic {
 	}
 
 	/**
-	 * A hard reset. Initializes the machine with the passed beans. The machine
-	 * starts with one bean at the top.
+	 * A hard reset. Initializes the machine with the passed in beans. The machine
+	 * uses the passed in beans in the order they appear in the beans array. The
+	 * machine starts with one bean at the top, which is the first element in the
+	 * beans array.
 	 * 
 	 * @param beans array of beans to add to the machine
 	 */
